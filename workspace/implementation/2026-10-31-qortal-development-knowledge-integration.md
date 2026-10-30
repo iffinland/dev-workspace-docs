@@ -6,7 +6,7 @@ Executing-agent evidence (how the real executor was established): the runtime de
 Report type / category (audit, reports, research, implementation, validation, handoffs): implementation
 Project ID / central report root: `orchestration` / `/home/iffi/dev-workspace/docs/workspace/`
 Exact application repository / branch / SHA: `/home/iffi/dev-workspace/control-plane`; `agent/control-plane/qortal-development-knowledge-20261031`; base `main` @ `8c69e05f9e1d7f9bf7520b597f0fa7e58879df29`; implementation commit `dc3a96aee6d79866bd955849089e86c097d4287f`; evidence commit and branch head at report time `8c209c3dd873038c870e7cbb6cd488ac0d40a0e6`.
-Canonical report path `docs/workspace/implementation/2026-10-31-qortal-development-knowledge-integration.md` / SHA-256 recorded after write / remote evidence: PR https://github.com/iffinland/dev-control-plane/pull/2
+Canonical report path `docs/workspace/implementation/2026-10-31-qortal-development-knowledge-integration.md` / SHA-256 recorded in the final handoff / remote evidence: control-plane PR https://github.com/iffinland/dev-control-plane/pull/2 and docs PR https://github.com/iffinland/dev-workspace-docs/pull/1
 
 ## Objective and exit criterion
 
@@ -172,7 +172,9 @@ configuration was changed.
 - Pushed branch `agent/control-plane/qortal-development-knowledge-20261031` to
   `https://github.com/iffinland/dev-control-plane.git`.
 - Opened PR #2 against `main`; it remains open and unmerged.
-- Wrote the report and provenance files in the canonical docs repository.
+- Wrote the report and provenance files in the canonical docs repository and
+  pushed them on `agent/workspace/qortal-development-knowledge-20261031`;
+  opened docs PR https://github.com/iffinland/dev-workspace-docs/pull/1.
 - No application, platform, server, QDN publication, signing, transaction,
   deployment, release or merge action was performed.
 
@@ -192,4 +194,5 @@ validation, not blockers:
 - Canonical absolute path:
   `/home/iffi/dev-workspace/docs/workspace/implementation/2026-10-31-qortal-development-knowledge-integration.md`
 - Category: `implementation`
-- SHA-256: recorded in the docs commit / repository metadata after write.
+- SHA-256: recorded in the final handoff (not embedded here, to avoid a
+  self-referential hash).
