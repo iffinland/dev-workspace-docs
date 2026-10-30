@@ -1,0 +1,28 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+*.tmp
+
+# Local logs
+*.log
+
+# Secrets and owner-local environment (never commit into central docs)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.kdbx
+id_rsa*
+id_ed25519*
+secrets/
+credentials/
+
+# Keep every report and project documentation directory tracked.
+# Do not add rules that hide audit/, reports/, research/, implementation/,
+# validation/, handoffs/ or any project root.
