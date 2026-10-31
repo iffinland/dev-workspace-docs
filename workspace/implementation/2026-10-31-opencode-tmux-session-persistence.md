@@ -6,7 +6,7 @@ Executing-agent evidence (how the real executor was established): the runtime de
 Report type / category (audit, reports, research, implementation, validation, handoffs): implementation
 Project ID / central report root: `orchestration` / `/home/iffi/dev-workspace/docs/workspace/`
 Exact application repository / branch / SHA: control-plane `agent/control-plane/opencode-tmux-sessions-20261031` from `main` `982c33a9c7856f76bcecbae021ae5a084ff4da90`; docs `agent/workspace/opencode-tmux-session-report-20261031` from `main` `215deef5f66d3b48c9be8b843d82469bfb7e1b8b`.
-Canonical report path `docs/workspace/implementation/2026-10-31-opencode-tmux-session-persistence.md` / SHA-256 recorded in the final response / remote evidence: companion control-plane PR and this docs PR.
+Canonical report path `docs/workspace/implementation/2026-10-31-opencode-tmux-session-persistence.md` / SHA-256 recorded in the final response / remote evidence: control-plane PR https://github.com/iffinland/dev-control-plane/pull/4 and docs PR https://github.com/iffinland/dev-workspace-docs/pull/3.
 
 ## Objective and exit criterion
 
@@ -126,7 +126,9 @@ on the next session.
 ## External actions (commit/push/tag/release/deploy/QDN write/transaction)
 
 - Documentation commits and normal branch pushes only, on dedicated feature
-  branches; PRs opened for owner review.
+  branches.
+- Control-plane PR: https://github.com/iffinland/dev-control-plane/pull/4
+- Docs PR: https://github.com/iffinland/dev-workspace-docs/pull/3
 - No merge, tag, release, deploy, QDN write, signing, transaction or server
   configuration change.
 
