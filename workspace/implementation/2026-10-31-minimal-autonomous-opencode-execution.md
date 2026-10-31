@@ -6,7 +6,7 @@ Executing-agent evidence (how the real executor was established): The running Op
 Report type / category (audit, reports, research, implementation, validation, handoffs): implementation
 Project ID / central report root: `orchestration` / `/home/iffi/dev-workspace/docs/workspace/`
 Exact application repository / branch / SHA: control-plane `agent/control-plane/unattended-opencode-20261031` at `493125df09845c5fe57d5c817695548d99075c89`, based on `main` `97a843a0bb054accc2f7a119876704faa66fe73a`. Docs `agent/workspace/unattended-opencode-20261031` based on `main` `ef782abde8913fc06552b27ec510d43940414488`; the final docs commit is recorded in the handoff.
-Canonical report path `docs/workspace/implementation/2026-10-31-minimal-autonomous-opencode-execution.md` / SHA-256 recorded in the final response / remote evidence: control-plane PR https://github.com/iffinland/dev-control-plane/pull/5 and the docs PR recorded in the follow-up commit.
+Canonical report path `docs/workspace/implementation/2026-10-31-minimal-autonomous-opencode-execution.md` / SHA-256 recorded in the final response / remote evidence: control-plane PR https://github.com/iffinland/dev-control-plane/pull/5 and docs PR https://github.com/iffinland/dev-workspace-docs/pull/4.
 
 ## Verdict
 
@@ -246,8 +246,7 @@ evidence are required.
 - control-plane PR: https://github.com/iffinland/dev-control-plane/pull/5
 - control-plane CI: run `41184617033`, completed/success
 - docs branch: `agent/workspace/unattended-opencode-20261031`
-- docs PR: created from this branch after the report commit; the exact URL is
-  recorded in the follow-up commit and final handoff
+- docs PR: https://github.com/iffinland/dev-workspace-docs/pull/4
 
 No merge was performed. The docs repository has no CI workflow.
 
